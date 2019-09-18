@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="136.62113">
+<testcase classname="Senior Housing net Home Page" name="Validating Advice and Planning" time="61.623643">
+<system-out><![CDATA[Given User Already in HomePage..............................................passed
+When clicks on Advice and Planning..........................................passed
+Then veriy page title.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Alzheimers Care" name="Validating Alzheimers Care" time="48.265189">
+<system-out><![CDATA[Given User Already in HomePage..............................................passed
+When clicks Alzheimers Care.................................................passed
+Then veriy Alzheimers page title............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Senior Housing net Home Page" name="Validating Home Page" time="26.732298">
+<system-out><![CDATA[Given User Already in HomePage..............................................passed
+When title of Home page is Senior Housing Senior Living Senior Apartments...passed
+Then user clicks on Search Button...........................................passed
+Then Search box highlighted with warning....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

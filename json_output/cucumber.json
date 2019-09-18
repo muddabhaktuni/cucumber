@@ -1,0 +1,182 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Validating Advice and Planning",
+        "description": "",
+        "id": "senior-housing-net-home-page;validating-advice-and-planning",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 45060387400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User Already in HomePage",
+            "match": {
+              "location": "verifyingsearchresultspage.already_in_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16554501600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "clicks on Advice and Planning",
+            "match": {
+              "location": "verifyingAdviceAndPlanning.clickingOnAdviceandPlanning()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8753800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "veriy page title",
+            "match": {
+              "location": "verifyingAdviceAndPlanning.verifyingTitle()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Senior Housing net Home Page",
+    "description": "",
+    "id": "senior-housing-net-home-page",
+    "keyword": "Feature",
+    "uri": "AdviceAndPlanning.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Validating Alzheimers Care",
+        "description": "",
+        "id": "alzheimers-care;validating-alzheimers-care",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39290438000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User Already in HomePage",
+            "match": {
+              "location": "verifyingsearchresultspage.already_in_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8966637600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "clicks Alzheimers Care",
+            "match": {
+              "location": "verifyingAlzheimersCare.clickingOnAlzheimersCare()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8113000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "veriy Alzheimers page title",
+            "match": {
+              "location": "verifyingAlzheimersCare.verifyingAlzheimerpageTitle()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Alzheimers Care",
+    "description": "",
+    "id": "alzheimers-care",
+    "keyword": "Feature",
+    "uri": "AlzheimersCare.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Validating Home Page",
+        "description": "",
+        "id": "senior-housing-net-home-page;validating-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20509146300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User Already in HomePage",
+            "match": {
+              "location": "verifyingsearchresultspage.already_in_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 442912600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "title of Home page is Senior Housing Senior Living Senior Apartments",
+            "match": {
+              "location": "verifyingsearchresultspage.title_of_home_page_is_senior_housing_net()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5552207100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on Search Button",
+            "match": {
+              "location": "verifyingsearchresultspage.user_clicks_on_srp_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 228031800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Search box highlighted with warning",
+            "match": {
+              "location": "verifyingsearchresultspage.search_box_highlighted_with_warning()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Senior Housing net Home Page",
+    "description": "",
+    "id": "senior-housing-net-home-page",
+    "keyword": "Feature",
+    "uri": "Homepage.feature"
+  }
+]
